@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import styles from './index.module.scss';
+import Link from 'next/link'
+import styles from './index.module.scss'
 
 export function Index() {
   /*
@@ -17,13 +17,13 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome easy-web 👋 v3
+              Welcome easy-web 👋 v4
             </h1>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Index;
+export default Index
