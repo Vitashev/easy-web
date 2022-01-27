@@ -1,5 +1,13 @@
 {
   "projects": {
     "default": "easy-web-org"
+  },
+  "targets": {
+    "easy-web-org": {
+      "hosting": {
+        "easy-web": ["easy-web-org"],
+        "ads-pub": ["ads-pub"]
+      }
+    }
   }
 }

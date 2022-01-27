@@ -5,6 +5,6 @@
     "ads-pub-e2e": "apps/ads-pub-e2e",
     "easy-web": "apps/easy-web",
     "easy-web-e2e": "apps/easy-web-e2e",
-    "shared-ui": "libs/shared-ui"
+    "shared-ui": "libs/shared/ui"
   }
 }

@@ -1,6 +1,7 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import './styles.css';
+import { AppProps } from 'next/app'
+import Head from 'next/head'
+import './styles.scss'
+import '@momo/shared/ui/styles'
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,11 +9,11 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to easy-web!</title>
       </Head>
-      <main className="app">
+      <main>
         <Component {...pageProps} />
       </main>
     </>
-  );
+  )
 }
 
-export default CustomApp;
+export default CustomApp

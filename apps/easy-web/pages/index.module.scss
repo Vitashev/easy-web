@@ -1,2 +1,29 @@
-.page {
+.wrapper {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-basis: 70%;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.profile-img {
+  margin: 1em;
+  width: 250px;
+  float: left;
+}
+
+.easy-web-img {
+  display: flex;
+  justify-content: center;
+
+  img {
+    padding-top: 1em;
+    width: 250px;
+  }
 }

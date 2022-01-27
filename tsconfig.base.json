@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@momo/shared-ui": ["libs/shared-ui/src/index.ts"]
+      "@momo/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@momo/shared/ui/styles": ["libs/shared/ui/src/lib/styles/index.scss"],
+      "@momo/shared/ui/styles/styles.module.scss": [
+        "libs/shared/ui/src/lib/styles/styles.module.scss"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

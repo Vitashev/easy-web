@@ -1,0 +1,51 @@
+p {
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -0.003em;
+}
+
+.card {
+  background-clip: border-box;
+  border: none;
+  border-radius: inherit;
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: #8e69ea;
+  transition: all 0.3s ease;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: #8e69ea;
+  transition: all 0.3s ease;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: #6985ea;
+  transition: all 0.3s ease;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: #8e69ea;
+  transition: all 0.3s ease;
+}
+
+ul {
+  font-size: 1.2em;
+  li {
+    padding: 0.2em;
+  }
+}
